@@ -375,8 +375,14 @@
     <comp lib="9" loc="(1453,595)" name="Text">
       <a name="text" val="hodně goofy 4 bit memory"/>
     </comp>
+    <comp lib="9" loc="(1625,1771)" name="Text">
+      <a name="text" val="block write"/>
+    </comp>
     <comp lib="9" loc="(1717,664)" name="Text">
       <a name="text" val="clock"/>
+    </comp>
+    <comp lib="9" loc="(1762,540)" name="Text">
+      <a name="text" val="reset M2"/>
     </comp>
     <comp lib="9" loc="(331,791)" name="Text">
       <a name="text" val="ten final semafor je dost v pravo"/>
@@ -402,6 +408,9 @@
     <comp lib="9" loc="(585,755)" name="Text">
       <a name="text" val="update clock"/>
     </comp>
+    <comp lib="9" loc="(825,576)" name="Text">
+      <a name="text" val="předem se za tohle omlouvám"/>
+    </comp>
     <comp lib="9" loc="(845,1200)" name="Text">
       <a name="text" val="W"/>
     </comp>
@@ -414,7 +423,7 @@
     <comp lib="9" loc="(845,920)" name="Text">
       <a name="text" val="W"/>
     </comp>
-    <comp lib="9" loc="(920,625)" name="Text">
+    <comp lib="9" loc="(950,662)" name="Text">
       <a name="text" val="reset memory"/>
     </comp>
     <wire from="(1000,1160)" to="(1000,1170)"/>
