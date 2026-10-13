@@ -111,6 +111,12 @@
     <comp lib="0" loc="(4380,1390)" name="Pull Resistor"/>
     <comp lib="0" loc="(4390,1350)" name="Pull Resistor"/>
     <comp lib="0" loc="(4400,1100)" name="Pull Resistor"/>
+    <comp lib="0" loc="(4430,1470)" name="Transistor"/>
+    <comp lib="0" loc="(4430,1500)" name="Transistor"/>
+    <comp lib="0" loc="(4500,1560)" name="Transistor"/>
+    <comp lib="0" loc="(4520,1480)" name="Pull Resistor"/>
+    <comp lib="0" loc="(4540,1460)" name="Pull Resistor"/>
+    <comp lib="0" loc="(4540,1530)" name="Pull Resistor"/>
     <comp lib="0" loc="(610,780)" name="Clock">
       <a name="appearance" val="NewPins"/>
     </comp>
@@ -271,6 +277,13 @@
     <comp lib="1" loc="(4450,1360)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
+    <comp lib="1" loc="(4610,1490)" name="AND Gate">
+      <a name="negate0" val="true"/>
+      <a name="size" val="30"/>
+    </comp>
+    <comp lib="1" loc="(4670,1520)" name="OR Gate">
+      <a name="size" val="30"/>
+    </comp>
     <comp lib="1" loc="(480,790)" name="OR Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="4"/>
@@ -360,6 +373,15 @@
     <comp lib="6" loc="(4490,1390)" name="LED">
       <a name="offcolor" val="#a8352c"/>
     </comp>
+    <comp lib="6" loc="(4630,1360)" name="LED">
+      <a name="color" val="#00f002"/>
+      <a name="facing" val="east"/>
+      <a name="offcolor" val="#005904"/>
+    </comp>
+    <comp lib="6" loc="(4630,1390)" name="LED">
+      <a name="facing" val="east"/>
+      <a name="offcolor" val="#a8352c"/>
+    </comp>
     <comp lib="9" loc="(1055,1140)" name="Text">
       <a name="text" val="R"/>
     </comp>
@@ -402,8 +424,11 @@
     <comp lib="9" loc="(4187,1562)" name="Text">
       <a name="text" val="blikací oranžová tlačítko"/>
     </comp>
-    <comp lib="9" loc="(4254,1240)" name="Text">
+    <comp lib="9" loc="(4250,1274)" name="Text">
       <a name="text" val="semafor konečně"/>
+    </comp>
+    <comp lib="9" loc="(4522,1584)" name="Text">
+      <a name="text" val="jestli nefunguje tak chvíli počkejte on naskočí"/>
     </comp>
     <comp lib="9" loc="(585,755)" name="Text">
       <a name="text" val="update clock"/>
@@ -927,22 +952,65 @@
     <wire from="(4330,1180)" to="(4330,1310)"/>
     <wire from="(4330,1310)" to="(4330,1340)"/>
     <wire from="(4330,1340)" to="(4330,1430)"/>
-    <wire from="(4330,1430)" to="(4330,1590)"/>
+    <wire from="(4330,1430)" to="(4330,1520)"/>
+    <wire from="(4330,1520)" to="(4330,1590)"/>
+    <wire from="(4330,1520)" to="(4410,1520)"/>
     <wire from="(4350,1360)" to="(4370,1360)"/>
-    <wire from="(4360,1330)" to="(4490,1330)"/>
+    <wire from="(4360,1330)" to="(4460,1330)"/>
     <wire from="(4370,1350)" to="(4370,1360)"/>
     <wire from="(4370,1350)" to="(4390,1350)"/>
     <wire from="(4380,1390)" to="(4490,1390)"/>
+    <wire from="(4380,1410)" to="(4380,1470)"/>
+    <wire from="(4380,1410)" to="(4490,1410)"/>
+    <wire from="(4380,1470)" to="(4390,1470)"/>
     <wire from="(4390,1350)" to="(4420,1350)"/>
+    <wire from="(4390,1490)" to="(4390,1500)"/>
+    <wire from="(4390,1490)" to="(4440,1490)"/>
     <wire from="(4400,1100)" to="(4400,1370)"/>
     <wire from="(4400,1370)" to="(4420,1370)"/>
-    <wire from="(4450,1360)" to="(4490,1360)"/>
+    <wire from="(4410,1450)" to="(4410,1480)"/>
+    <wire from="(4410,1480)" to="(4410,1520)"/>
+    <wire from="(4410,1520)" to="(4480,1520)"/>
+    <wire from="(4430,1460)" to="(4430,1470)"/>
+    <wire from="(4430,1460)" to="(4540,1460)"/>
+    <wire from="(4430,1500)" to="(4480,1500)"/>
+    <wire from="(4440,1470)" to="(4440,1490)"/>
+    <wire from="(4440,1470)" to="(4470,1470)"/>
+    <wire from="(4450,1360)" to="(4470,1360)"/>
+    <wire from="(4460,1330)" to="(4460,1560)"/>
+    <wire from="(4460,1330)" to="(4490,1330)"/>
+    <wire from="(4470,1360)" to="(4470,1470)"/>
+    <wire from="(4470,1360)" to="(4490,1360)"/>
+    <wire from="(4480,1480)" to="(4480,1500)"/>
+    <wire from="(4480,1480)" to="(4520,1480)"/>
+    <wire from="(4480,1520)" to="(4480,1540)"/>
+    <wire from="(4490,1390)" to="(4490,1410)"/>
+    <wire from="(4500,1500)" to="(4500,1560)"/>
+    <wire from="(4500,1500)" to="(4520,1500)"/>
+    <wire from="(4520,1480)" to="(4550,1480)"/>
+    <wire from="(4520,1500)" to="(4520,1530)"/>
+    <wire from="(4520,1530)" to="(4540,1530)"/>
+    <wire from="(4540,1460)" to="(4560,1460)"/>
+    <wire from="(4540,1530)" to="(4640,1530)"/>
+    <wire from="(4550,1480)" to="(4550,1500)"/>
+    <wire from="(4550,1500)" to="(4580,1500)"/>
+    <wire from="(4560,1460)" to="(4560,1480)"/>
+    <wire from="(4560,1460)" to="(4700,1460)"/>
+    <wire from="(4560,1480)" to="(4570,1480)"/>
     <wire from="(460,2140)" to="(1310,2140)"/>
     <wire from="(460,840)" to="(460,910)"/>
     <wire from="(460,910)" to="(460,2140)"/>
     <wire from="(460,910)" to="(670,910)"/>
+    <wire from="(4610,1490)" to="(4630,1490)"/>
+    <wire from="(4630,1360)" to="(4700,1360)"/>
+    <wire from="(4630,1390)" to="(4720,1390)"/>
+    <wire from="(4630,1490)" to="(4630,1510)"/>
+    <wire from="(4630,1510)" to="(4640,1510)"/>
+    <wire from="(4670,1520)" to="(4720,1520)"/>
     <wire from="(470,1170)" to="(540,1170)"/>
     <wire from="(470,840)" to="(470,1170)"/>
+    <wire from="(4700,1360)" to="(4700,1460)"/>
+    <wire from="(4720,1390)" to="(4720,1520)"/>
     <wire from="(480,440)" to="(480,790)"/>
     <wire from="(480,440)" to="(530,440)"/>
     <wire from="(490,840)" to="(490,950)"/>
