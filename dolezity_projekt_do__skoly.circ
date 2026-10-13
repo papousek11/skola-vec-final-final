@@ -58,7 +58,7 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="4.0"/>
-    <comp lib="0" loc="(1250,660)" name="Pin">
+    <comp lib="0" loc="(1200,660)" name="Pin">
       <a name="appearance" val="NewPins"/>
     </comp>
     <comp lib="0" loc="(1310,1930)" name="Pull Resistor"/>
@@ -200,6 +200,7 @@
     <comp lib="1" loc="(1120,940)" name="NOT Gate">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="1" loc="(1230,660)" name="NOT Gate"/>
     <comp lib="1" loc="(1290,1790)" name="AND Gate">
       <a name="inputs" val="4"/>
     </comp>
@@ -394,46 +395,46 @@
     <comp lib="9" loc="(1055,860)" name="Text">
       <a name="text" val="R"/>
     </comp>
-    <comp lib="9" loc="(1453,595)" name="Text">
+    <comp lib="9" loc="(1450,595)" name="Text">
       <a name="text" val="hodně goofy 4 bit memory"/>
     </comp>
-    <comp lib="9" loc="(1625,1771)" name="Text">
+    <comp lib="9" loc="(1625,1770)" name="Text">
       <a name="text" val="block write"/>
     </comp>
-    <comp lib="9" loc="(1717,664)" name="Text">
+    <comp lib="9" loc="(1715,660)" name="Text">
       <a name="text" val="clock"/>
     </comp>
-    <comp lib="9" loc="(1762,540)" name="Text">
+    <comp lib="9" loc="(1760,540)" name="Text">
       <a name="text" val="reset M2"/>
     </comp>
-    <comp lib="9" loc="(331,791)" name="Text">
+    <comp lib="9" loc="(330,790)" name="Text">
       <a name="text" val="ten final semafor je dost v pravo"/>
     </comp>
-    <comp lib="9" loc="(3458,995)" name="Text">
+    <comp lib="9" loc="(3455,995)" name="Text">
       <a name="text" val="0001 -1"/>
     </comp>
-    <comp lib="9" loc="(3515,1196)" name="Text">
+    <comp lib="9" loc="(3515,1195)" name="Text">
       <a name="text" val="0101 - 5"/>
     </comp>
-    <comp lib="9" loc="(3562,1627)" name="Text">
+    <comp lib="9" loc="(3560,1625)" name="Text">
       <a name="text" val="1100 - 12"/>
     </comp>
-    <comp lib="9" loc="(3584,1416)" name="Text">
+    <comp lib="9" loc="(3580,1415)" name="Text">
       <a name="text" val="0111 -7"/>
     </comp>
-    <comp lib="9" loc="(4187,1562)" name="Text">
+    <comp lib="9" loc="(4185,1560)" name="Text">
       <a name="text" val="blikací oranžová tlačítko"/>
     </comp>
-    <comp lib="9" loc="(4250,1274)" name="Text">
+    <comp lib="9" loc="(4250,1270)" name="Text">
       <a name="text" val="semafor konečně"/>
     </comp>
-    <comp lib="9" loc="(4522,1584)" name="Text">
+    <comp lib="9" loc="(4520,1580)" name="Text">
       <a name="text" val="jestli nefunguje tak chvíli počkejte on naskočí"/>
     </comp>
     <comp lib="9" loc="(585,755)" name="Text">
       <a name="text" val="update clock"/>
     </comp>
-    <comp lib="9" loc="(825,576)" name="Text">
+    <comp lib="9" loc="(825,575)" name="Text">
       <a name="text" val="předem se za tohle omlouvám"/>
     </comp>
     <comp lib="9" loc="(845,1200)" name="Text">
@@ -448,7 +449,7 @@
     <comp lib="9" loc="(845,920)" name="Text">
       <a name="text" val="W"/>
     </comp>
-    <comp lib="9" loc="(950,662)" name="Text">
+    <comp lib="9" loc="(950,660)" name="Text">
       <a name="text" val="reset memory"/>
     </comp>
     <wire from="(1000,1160)" to="(1000,1170)"/>
@@ -524,8 +525,8 @@
     <wire from="(1220,1180)" to="(1220,1800)"/>
     <wire from="(1220,1800)" to="(1240,1800)"/>
     <wire from="(1230,1810)" to="(1240,1810)"/>
+    <wire from="(1230,660)" to="(1260,660)"/>
     <wire from="(1230,900)" to="(1230,1810)"/>
-    <wire from="(1250,660)" to="(1260,660)"/>
     <wire from="(1260,660)" to="(1260,810)"/>
     <wire from="(1260,810)" to="(1460,810)"/>
     <wire from="(1280,1630)" to="(1510,1630)"/>
